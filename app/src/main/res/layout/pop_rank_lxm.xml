@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/idPalyHeadSdv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:text="总决赛排行榜" />
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/tab_menu"></android.support.design.widget.TabLayout>
+
+    <!--<com.gavin.demo_indicator.ViewPagerIndicator-->
+        <!--android:id="@+id/indicator"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+    <!--<TabHost-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp"></TabHost>-->
+    <!--<android.support.design.widget.TabLayout-->
+        <!--android:id="@+id/tab"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"></android.support.design.widget.TabLayout>-->
+    <!--<RadioGroup-->
+
+        <!--android:id="@+id/activity_group_radioGroup"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="#ffffff"-->
+        <!--android:checkedButton="@+id/order_process"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingBottom="3dp"-->
+        <!--android:paddingTop="3dp">-->
+
+    <!--<RadioButton-->
+
+        <!--android:background="@null"-->
+        <!--android:button="@null"-->
+        <!--android:id="@+id/order_process"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1.0"-->
+        <!--android:gravity="center"-->
+        <!--android:text="订单处理"/>-->
+
+    <!--<RadioButton-->
+        <!--android:background="@null"-->
+        <!--android:button="@null"-->
+        <!--android:id="@+id/order_query"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1.0"-->
+        <!--android:gravity="center"-->
+        <!--android:text="订单查询"/>-->
+    <!--</RadioGroup>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp">-->
+        <!--<TextView-->
+            <!--android:id="@+id/text"-->
+            <!--android:text="1"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent" />-->
+        <!--<TextView-->
+            <!--android:id="@+id/text2"-->
+            <!--android:text="2"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent" />-->
+    <!--</LinearLayout>-->
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_above="@+id/divide"-->
+        <!--android:layout_alignParentTop="true">-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/iv_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--</FrameLayout>-->
+</LinearLayout>
